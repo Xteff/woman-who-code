@@ -14,5 +14,6 @@ puts "Hola #{nombre} #{apellido_paterno} #{apellido_materno}"
 
 puts "Introduce numero"
 numero = gets.chomp.to_i
+#to_i ENTERO
 resultado = numero * 10
 puts "#{resultado} = Tu numero favorito #{numero} era muy pobre, yo lo hice mejor"
